@@ -27,22 +27,26 @@
             100% { transform: translate(0, 0); }
         }
         h2:nth-of-type(1) {
-            animation: moveEmail1 5s infinite;
+            animation: moveEmail1 5s infinite, rotate 5s infinite;
         }
         h2:nth-of-type(2) {
-            animation: moveEmail2 5s infinite;
+            animation: moveEmail2 5s infinite, rotate 5s infinite;
         }
         h2:nth-of-type(3) {
-            animation: moveEmail3 5s infinite;
+            animation: moveEmail3 5s infinite, rotate 5s infinite;
         }
         p:nth-of-type(1) {
-            animation: moveEmail1 5s infinite;
+            animation: moveEmail1 5s infinite, rotate 5s infinite;
         }
         p:nth-of-type(2) {
-            animation: moveEmail2 5s infinite;
+            animation: moveEmail2 5s infinite, rotate 5s infinite;
         }
         p:nth-of-type(3) {
-            animation: moveEmail3 5s infinite;
+            animation: moveEmail3 5s infinite, rotate 5s infinite;
+        }
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
         @keyframes rainbow {
             0% { color: #ff0000; }
@@ -95,7 +99,7 @@
 </head>
 <body>
     <header>
-        <h1>Ada's shitty site</h1>
+        <h1>Ada's awesome site</h1>
     </header>
     <nav>
         <a href="index.html">home</a>
