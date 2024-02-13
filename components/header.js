@@ -1,3 +1,4 @@
+
 class Header extends HTMLElement {
   constructor() {
     super();
@@ -6,11 +7,11 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
 		    <nav>
-		        <a href="index.html"></a>
-		        <a href="about.html"></a>
-		        <a href="stuff.html"></a>
-		        <a href="contact.html">󰛋</a>
-		        <a href="blog.html"></a>
+		        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+		        <a href="about.html"><i class="fa-solid fa-circle-info"></i></a>
+		        <a href="stuff.html"><i class="fa-solid fa-code"></i></a>
+		        <a href="contact.html"><i class="fa-solid fa-envelope"></i></a>
+		        <a href="blog.html"><i class="fa-solid fa-rss"></i></a>
 		    </nav>
     `;
   }
