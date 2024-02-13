@@ -6,11 +6,11 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
 		    <nav>
-		        <a href="index.html">home</a>
-		        <a href="about.html">about</a>
-		        <a href="stuff.html">projects</a>
-		        <a href="contact.html">contact</a>
-		        <a href="blog.html">blog</a>
+		        <a href="index.html"></a>
+		        <a href="about.html"></a>
+		        <a href="stuff.html"></a>
+		        <a href="contact.html">󰛋</a>
+		        <a href="blog.html"></a>
 		    </nav>
     `;
   }
