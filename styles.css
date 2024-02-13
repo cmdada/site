@@ -1,3 +1,16 @@
+
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      20% { color: #ff8000; }
+      40% { color: #ffff00; }
+      60% { color: #00ff00; }
+      80% { color: #0000ff; }
+      100% { color: #ff00ff; }
+    }
+    
+    h1 {
+      animation: rainbow 5s infinite;
+    }
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
@@ -35,5 +48,6 @@
             text-align: center;
             position: absolute;
             bottom: 0;
-        }
             width: 100%;
+        }
+    
