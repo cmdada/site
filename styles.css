@@ -35,7 +35,11 @@
             margin: 0 10px;
         }
         section {
-            padding: 50px;
+            padding-top: 10px;
+  			padding-right: 30px;
+  			padding-bottom: 50px;
+ 			padding-left: 80px;
+           
         }
         section a {
           color: hotpink;
