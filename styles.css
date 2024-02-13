@@ -1,33 +1,32 @@
-
     @keyframes rainbow {
       0% { color: #ff0000; }
       20% { color: #ff8000; }
-      40% { color: #ffff00; }
+      40% { color: #31004d; }
       60% { color: #00ff00; }
       80% { color: #0000ff; }
       100% { color: #ff00ff; }
     }
-    
     h1 {
       animation: rainbow 5s infinite;
     }
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #aa5580;
-            margin: 0;
-            padding: 0;
-        }
+		body {
+		  font-family: Arial, sans-serif;
+		  background-color: #260d26;
+		  color: #aa5580;
+		  margin: 0;
+		  padding: 0;
+		 
+		}
         header {
             background-color: #333;
             color: #b5617e;
-            padding: 10px;
+            padding: 20px;
             text-align: center;
         }
         nav {
             background-color: #444;
             color: #b5617e;
-            padding: 10px;
+            padding: 15px;
             text-align: center;
         }
         nav a {
@@ -36,7 +35,7 @@
             margin: 0 10px;
         }
         section {
-            padding: 20px;
+            padding: 50px;
         }
         section a {
           color: hotpink;
@@ -51,9 +50,9 @@
             width: 100%;
         }
 		#nav {
-	      background-color: #333; /* Black background color */
-	      position: fixed; /* Make it stick/fixed */
-	      top: 0; /* Stay on top */
-	      width: 100%; /* Full width */
-	      transition: top 0.3s; /* Transition effect when sliding down (and up) */
+	      background-color: #333;
+	      position: fixed;
+	      top: 0;
+	      width: 100%;
+	      transition: top 0.3s;
 	    }    
