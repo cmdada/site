@@ -1,0 +1,12 @@
+/* TEAM */
+	Would be a bdfl if anyone cared: ada t
+	Contact: ada [at] adas.software
+	github: @cmdada
+
+/* THANKS */
+	emotional support nerd: pythonian23
+	
+/* SITE *
+	Language: English
+	Doctype:HTML, CSS, A tiny bit of JS
+	IDE: adaMicro
