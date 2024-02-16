@@ -15,7 +15,7 @@ class Header extends HTMLElement {
           <a href="index.html">home</a>
           <a href="about.html">about</a>
           <a href="stuff.html">projects</a>
-	      <a href="adamicro.html">aμ</a>
+	      <a href="adamicro.html">adaμ</a>
           <a href="contact.html">contact</i></a>
           <a href="blog.html">blog</i></a>
           
