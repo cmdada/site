@@ -12,6 +12,7 @@ class Header extends HTMLElement {
 		        <a href="stuff.html"><i class="fa-solid fa-code"></i></a>
 		        <a href="contact.html"><i class="fa-solid fa-envelope"></i></a>
 		        <a href="blog.html"><i class="fa-solid fa-rss"></i></a>
+		        <a href="adamicro.html">μ</a> 
 		    </nav>
     `;
   }
