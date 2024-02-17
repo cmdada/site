@@ -12,12 +12,12 @@ class Header extends HTMLElement {
           <span></span>
         </div>
         <nav class="navbar">
-          <a href="index.html">home</a>
-          <a href="about.html">about</a>
-          <a href="stuff.html">projects</a>
-	      <a href="adamicro.html">adaμ</a>
-          <a href="contact.html">contact</a>
-          <a href="blog.html">blog</a>
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="stuff.html">projects</a></li>
+	      <li><a href="adamicro.html">adaμ</a></li>
+          <li><a href="contact.html">contact</a></li>
+          <li><a href="blog.html">blog</a></li>
           
         </nav>
       </header>
