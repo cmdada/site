@@ -1,0 +1,8 @@
+/* 0xproto-nerd-font */
+@font-face {
+	font-family: 0xProto Nerd Font;
+	font-style: normal;
+	font-weight: 400;
+	src: local("0xProto Nerd Font"), local("0xProtoNF-Regular"), url(0xproto-nerd-font.woff2) format("woff2");
+}
+

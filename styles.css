@@ -1,3 +1,4 @@
+@import url("0xproto-nerd-font/0xproto-nerd-font.css");
     h1 {
         background-image: 
           linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
@@ -22,7 +23,7 @@
     	}
     }
 		body {
-		  font-family: Helvetica, sans-serif;
+		  font-family: "0xProto Nerd Font";
 		  background-color: #130613;
 		  color: #aa5580;
 		  margin: 0px;
