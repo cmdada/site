@@ -50,7 +50,7 @@
           color: hotpink;
         }
         footer {
-            background-color: #333;
+            background-color: var(--bg-color);
             color: #b5617e;
             padding: 10px;
             text-align: center;
@@ -84,6 +84,7 @@
       background-color: var(--bg-color);
       transition: background-color 0.5s, color 0.5s;
   }
+  
 
   .theme-switch-wrapper {
       display: flex;
