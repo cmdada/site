@@ -14,20 +14,19 @@
 		  font-family: Arial, sans-serif;
 		  background-color: #130613;
 		  color: #aa5580;
-		  margin: 10px;
+		  margin: 0px;
 		  padding: 0;
 		 
 		}
         header {
             background-color: #333;
             color: #b5617e;
-            padding: 20px;
+            padding: 5px;
             text-align: center;
         }
         nav {
-            background-color: #444;
             color: #b5617e;
-            padding: 15px;
+            padding: 5px;
             text-align: center;
    			padding-right: 30px;
            	padding-bottom: 0px;
@@ -40,7 +39,7 @@
             margin: 0 10px;
         }
         section {
-            padding-top: 10px;
+            padding-top: 0px;
             padding-top: 10px;
   			padding-right: 30px;
   			padding-bottom: 50px;
@@ -78,8 +77,6 @@
       font-family: Arial, sans-serif;
 		  background-color: #ffffff;
 		  color: #000000;
-		  margin: 0;
-		  padding: 10px;
   }
 
   body {
@@ -94,7 +91,7 @@
   }
 
   .theme-switch {
-      background-color: #444;
+      background-color: #333;
       border: none;
       padding:10px;
       color: #ffffff;
