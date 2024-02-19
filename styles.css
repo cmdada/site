@@ -22,7 +22,7 @@
     	}
     }
 		body {
-		  font-family:  Abril Fatface;
+		  font-family: Helvetica, sans-serif;
 		  background-color: #130613;
 		  color: #aa5580;
 		  margin: 0px;
@@ -80,7 +80,6 @@
 	      transition: top 0.3s;
 	    }
     :root {
-      font-family:  Abril Fatface;
 		  background-color: #130613;
 		  color: #aa5580;
 		  margin: 0;
