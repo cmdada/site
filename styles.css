@@ -31,7 +31,7 @@
             text-align: center;
             padding-top: 10px;
    			padding-right: 30px;
-           	padding-bottom: 5px;
+           	padding-bottom: 0px;
             padding-left: 30px;
             
         }
@@ -86,10 +86,54 @@
 		  text-decoration: none;
 		}
 
-		/* Change the link color to #111 (black) on hover */
 		li a:hover {
 		  background-color: #111;
 		}
+    :root {
+      font-family: Arial, sans-serif;
+		  background-color: #130613;
+		  color: #aa5580;
+		  margin: 0;
+		  padding: 0;
+
+      padding: 1em;
+      font-size: 20px;
+      line-height: 1.2;
+  }
+
+  [data-theme="light"] {
+      font-family: Arial, sans-serif;
+		  background-color: #ffffff;
+		  color: #000000;
+		  margin: 0;
+		  padding: 0;
+  }
+
+  body {
+      color: var(--fg-color);
+      background-color: var(--bg-color);
+      transition: background-color 0.5s, color 0.5s;
+  }
+
+  .theme-switch-wrapper {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .theme-switch {
+      display: block;
+      appearance: none;
+      width: 2rem;
+      height: 2rem;
+      background-color: var(--btn-bg-color);
+      color: var(--btn-fg-color);
+      border: none;
+      font-size: 1.5rem;
+      padding: 0;
+      margin: 0.5rem;
+      cursor: pointer;
+      transition: background-color 1.5s, color 1.5s;
+  }
 
 
 

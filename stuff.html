@@ -7,6 +7,16 @@
 -scale=1">
 <link rel="stylesheet" href="styles.css"></head>
 <script src="components/header.js" type="text/javascript" defer></script>
+<script>
+    function switchTheme() {
+        let body = document.body;
+        if (body.dataset.theme === "dark") {
+            body.dataset.theme = "light";
+        } else {
+            body.dataset.theme = "dark";
+        }
+    }
+</script>
 <body>
 	<header-component></header-component>
     <section>
@@ -20,6 +30,8 @@
         <p>a python script to pulse between colors on a connected lego dimensions toypad</p>
         <h3><a href="https://github.com/cmdada/wifishitpost">wifishitpost</a></h3>
         <p>esp32 wifi honeypot that does some stuff and is fairly lightweight</p>
+        <h3><a href="cmu.html">CMU CS Academy whitepaper</a></h3>
+        <p>Evaluating the 2D Vector and Raster Graphics Processing Proficiency of CMU CS Academy's IDE</p>
     </section>
 </body>
 </html>
