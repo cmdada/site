@@ -20,9 +20,7 @@ class Header extends HTMLElement {
           <a href="contact.html">contact</a>
           <a href="blog.html">blog</a>
     <div class="theme-switch-wrapper">
-        <button class="theme-switch" onclick="switchTheme()">
-            🌓
-        </button>
+        <button class="theme-switch" onclick="switchTheme()">[high contrast mode]</button>
     </div>
     
           
