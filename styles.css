@@ -13,7 +13,7 @@
 		  font-family: Arial, sans-serif;
 		  background-color: #130613;
 		  color: #aa5580;
-		  margin: 0;
+		  margin: 10px;
 		  padding: 0;
 		 
 		}
@@ -22,7 +22,6 @@
             color: #b5617e;
             padding: 20px;
             text-align: center;
-            padding: 20px;
         }
         nav {
             background-color: #444;
@@ -65,40 +64,13 @@
 	      top: 0;
 	      width: 100%;
 	      transition: top 0.3s;
-	    }    
-		ul {
-  		  list-style-type: none;
-		  margin: 0;
-		  padding: 0;
-		  overflow: hidden;
-		  background-color: #333;
-		}
-
-		li {
-		  float: left;
-		}
-
-		li a {
-		  display: block;
-		  color: white;
-		  text-align: center;
-		  padding: 14px 16px;
-		  text-decoration: none;
-		}
-
-		li a:hover {
-		  background-color: #111;
-		}
+	    }
     :root {
       font-family: Arial, sans-serif;
 		  background-color: #130613;
 		  color: #aa5580;
 		  margin: 0;
 		  padding: 0;
-
-      padding: 1em;
-      font-size: 20px;
-      line-height: 1.2;
   }
 
   [data-theme="light"] {
@@ -106,7 +78,7 @@
 		  background-color: #ffffff;
 		  color: #000000;
 		  margin: 0;
-		  padding: 0;
+		  padding: 10px;
   }
 
   body {
@@ -123,10 +95,13 @@
   .theme-switch {
       background-color: #444;
       border: none;
+      padding:10px;
       color: #ffffff;
       text-align: center;
       cursor: pointer;
       transition: background-color 0.5s, color 0.5s;
+      font-size: 15px;
+      line-height: 1.2;
   }
 
 
