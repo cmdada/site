@@ -6,6 +6,7 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <header>
+      <link rel="manifest" href="site.webmanifest" />
         <div class="menu-toggle" id="mobile-menu">
           <span></span>
           <span></span>
