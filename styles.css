@@ -4,6 +4,17 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;  
         animation: move 35s linear infinite;
+        text-align: center;
+            
+    }
+    h2 {
+        text-align: center;    
+    }
+    h3{
+    	text-align: center;
+   		padding-left: 10%;
+       	padding-right: 10%;
+        
     }
     @keyframes move {
     	to {
@@ -11,7 +22,7 @@
     	}
     }
 		body {
-		  font-family: Arial, sans-serif;
+		  font-family:  Abril Fatface;
 		  background-color: #130613;
 		  color: #aa5580;
 		  margin: 0px;
@@ -23,27 +34,30 @@
             color: #b5617e;
             padding: 5px;
             text-align: center;
+            box-sizing: 100%;
         }
         nav {
+        	width: 80%;
             color: #b5617e;
             padding: 5px;
             text-align: center;
    			padding-right: 30px;
            	padding-bottom: 0px;
             padding-left: 30px;
-            
+            box-sizing: 100%;
         }
         nav a {
             color: #b5617e;
             text-decoration: none;
             margin: 0 10px;
         }
+        p {
+        	padding-left: 8%;
+        	padding-right: 8%;
+        }
         section {
-            padding-top: 0px;
-            padding-top: 10px;
-  			padding-right: 30px;
-  			padding-bottom: 50px;
- 			padding-left: 80px;
+            text-align: left;
+            
            
         }
         section a {
@@ -66,7 +80,7 @@
 	      transition: top 0.3s;
 	    }
     :root {
-      font-family: Arial, sans-serif;
+      font-family:  Abril Fatface;
 		  background-color: #130613;
 		  color: #aa5580;
 		  margin: 0;
