@@ -106,17 +106,19 @@
   }
 
   .theme-switch {
-      background-color: #333;
-      border: none;
-      padding:10px;
-      color: #ffffff;
-      text-align: center;
-      cursor: pointer;
-      transition: background-color 0.5s, color 0.5s;
-      font-size: 15px;
-      line-height: 1.2;
+  background-color: #333;
+  padding: 8px 10px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  color: white;
   }
-
-
+  .theme-switch:hover {
+  background-color: #130613;
+  color: #a35a73;
+  }
 
 
