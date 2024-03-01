@@ -1,117 +1,53 @@
 @import url("0xproto-nerd-font/0xproto-nerd-font.css");
-    h1 {
-        background-image: 
-          linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;  
-        animation: move 35s linear infinite;
-        text-align: center;
-            
-    }
-    h2 {
-        text-align: center;    
-    }
-    h3{
-    	text-align: center;
-   		padding-left: 10%;
-       	padding-right: 10%;
-        
-    }
-    @keyframes move {
-    	to {
-    		background-position: 4500vh;
-    	}
-    }
-		body {
-		  font-family: "0xProto Nerd Font";
-		  background-color: #130613;
-		  color: #aa5580;
-		  margin: 0px;
-		  padding: 0;
-		  padding-bottom: 15px;
-		 
-		}
-        header {
-            background-color: #333;
-            color: #b5617e;
-            padding: 5px;
-            padding-bottom: 0px;
-            text-align: center;
-            box-sizing: 100%;
-        }
-        nav {
-        	width: 80%;
-            color: #b5617e;
-            padding: 5px;
-            text-align: center;
-   			padding-right: 30px;
-           	padding-bottom: 0px;
-            padding-left: 30px;
-            box-sizing: 100%;
-        }
-        nav a {
-            color: #b5617e;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        p {
-        	padding-left: 8%;
-        	padding-right: 8%;
-        }
-        section {
-            text-align: left;
-            
-           
-        }
-        section a {
-          color: hotpink;
-        }
-        
-		#nav {
-	      background-color: #333;
-	      position: fixed;
-	      top: 0;
-	      width: 100%;
-	      transition: top 0.3s;
-	    }
-    :root {
-		  background-color: #130613;
-		  color: #aa5580;
-		  margin: 0;
-		  padding: 0;
-  }
-
-  [data-theme="light"] {
-		  background-color: #ffffff;
-		  color: #000000;
-  }
-
-  body {
-      color: var(--fg-color);
-      background-color: var(--bg-color);
-      transition: background-color 0.5s, color 0.5s;
-  }
-  
-
-  .theme-switch-wrapper {
-      display: flex;
-      justify-content: flex-end;
-  }
-
-  .theme-switch {
-  background-color: #333;
-  padding: 8px 10px;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  transition-duration: 0.4s;
-  color: white;
-  }
-  .theme-switch:hover {
-  background-color: #130613;
-  color: #a35a73;
-  }
-
-
+body {
+    font-family: "0xProto Nerd Font", sans-serif;
+    background-color: #f5f5f5;
+    color: #3; /* Changed color to a more readable dark gray */
+    margin: 0;
+    padding: 0;
+    font-size: 18px; /* Increased font size for body text */
+}
+header, nav {
+    background-color: #d9b3ff;
+    color: #3; /* Changed color to a more readable dark gray */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+section {
+    background-color: #f5f5f5;
+    color: #3; /* Changed color to a more readable dark gray */
+    padding: 40px; /* Increased padding for sections */
+    text-align: left;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    font-size: 2em; /* Increased font size for headings */
+}
+h2{
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em; /* Increased font size for headings */
+}
+h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 1.2em; /* Increased font size for headings */
+}
+nav a {
+    color: #333; /* Changed color to a more readable dark gray */
+    text-decoration: none;
+    margin: 0 10px;
+}
+p {
+    padding: 0 20px;
+    line-height: 1.6;
+    margin-bottom: 20px; /* Added margin to separate paragraphs */
+}
+#nav {
+    position: fixed;
+    top: 0;
+    width: 10%;
+    transition: top 0.3s;
+}

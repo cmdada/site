@@ -18,12 +18,7 @@ class Header extends HTMLElement {
 	      <a href="adamicro.html">[adaμ]</a>
 	      <a href="cmu.html">[cmu]</a>
           <a href="contact.html">[contact]</a>
-          <a href="blog.html">[blog]</a>
-    <div class="theme-switch-wrapper">
-        <button class="theme-switch" onclick="switchTheme()">[high contrast mode]</button>
-    </div>
-    
-          
+          <a href="blog.html">[blog]</a>          
         </nav>
       </header>
     `;
