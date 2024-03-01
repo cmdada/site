@@ -10,7 +10,7 @@ body {
 header, nav {
     background-color: #d9b3ff;
     color: #3; /* Changed color to a more readable dark gray */
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 1.1em;
