@@ -9,4 +9,4 @@
 /* SITE *
 	Language: English
 	Doctype:HTML, CSS, A tiny bit of JS
-	IDE: adaMicro
+	IDE: adaMicro 
