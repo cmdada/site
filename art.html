@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ada's software</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="site.webmanifest" />
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="dark">
+<header-component></header-component>
+<section id="art-gallery">
+ <h1>Art</h1>
+ <p>I do somewhat questionable pixel art.</p>
+ <div class="art-grid">
+    <div class="art-piece">
+      <img src="noheart.png" alt="man in a skirt with no heart">
+      <h2>heartless</h2>
+      <p>a very high effort drawing you shouldnt read into</p>
+    <div class="art-piece">
+      <img src="sinking.png" alt="bloody bathroom sink">
+      <h2>sinking</h2>
+      <p>just an idea i had while washing my hands</p>
+    </div>
+</div>
+</section>
+<footer-component></footer-component>
+<script src="components/header.js" type="text/javascript" defer></script>
+<script src="components/footer.js" type="text/javascript" defer></script>
+<script>
+    function switchTheme() {
+        let body = document.body;
+        if (body.dataset.theme === "dark") {
+            body.dataset.theme = "light";
+        } else {
+            body.dataset.theme = "dark";
+        }
+    }
+</script>
+</body>
+</html>

@@ -55,3 +55,18 @@ p {
     width: 10%;
     transition: top 0.3s;
 }
+.art-grid {
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.art-piece {
+	text-align: center;
+}
+
+.art-piece img {
+	width: 100%;
+	height: auto;
+}
