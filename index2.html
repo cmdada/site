@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ada's software</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial
+-scale=1">
+<link rel="manifest" href="site.webmanifest" />
+<link rel="stylesheet" href="styles.css"></head>
+<script src="components/header.js" type="text/javascript" defer></script>
+<script src="components/footer.js" type="text/javascript" defer></script>
+<footer-component></footer-component>
+
+<div class="row">
+ <div class="leftcolumn">
+    <div class="card">
+      <h2>Evaluating the 2D Vector and Raster Graphics Processing Proficiency of CMU CS Academy's IDE</h2>
+      <h5>Published on: Fri Mar 1 09:16:46 AM MST 2024 by ada</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>This article sets out to evaluate the computational capabilities of CMU Computer Science (CS) Academy's Integrated Development Environment (IDE) in processing 2D Vector and Raster Graphics.</p>
+      <p>The evaluation framework centers on the continuous creation and rendering of 2D objects while closely observing the total count of objects effectively processed by the CMU CS Academy's IDE. The selection of test objects comprised vector shapes, along with raster text, that I found to fetch fonts from fonts.google.com based on network requests and debugging observations.</p>
+      <p>Performance testing was carried out using a system equipped with a 12th generation Intel Core i7 processor, 16GB RAM, and an Nvidia T1000 with 4GB of GDDR6, running on Windows 10. The testing spans were deployed on Firefox and Google Chrome.</p>
+      <p>Firefox demonstrated performance of an average count of 5,423 shapes before crash over ten runs, with each stress test lasting near five minutes before the page became unresponsive, prompting either the page to crash, the browser to crash, or the Windows desktop to crash.</p>
+      <p>The variability of the data on Chromium-based browsers shows that this test may not be optimal for Chromium-based browsers. For a performance log recorded via Firefox's built-in profiler, click <a href="http://go.poweredge.xyz/perf">here</a>.</p>
+    </div>
+    <div class="card">
+      <h2>So what's up with transcode on the AUR?</h2>
+      <h5>Published on: Wed Feb 14 10:06:38 AM MST 2024 by ada</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>As the title may suggest, <a href="https://aur.archlinux.org/packages/transcode">transcode</a> has something weird going on with its packagebase.</p>
+      <p>The website previously displayed for the upstream URL seems to not be in the ownership of the maintainer, or if it is, it has been repurposed as an unrelated blog about apple cider vinegar. The package previously used a GitHub clone (<a href="https://github.com/wyyrepo/transcode">https://github.com/wyyrepo/transcode</a>) that isn't from the original author, but the tree is identical to what's hosted on the AUR, except that the GitHub version has a README.md instead of a README.</p>
+      <p>So basically, I'm just confused about what happened there and wanted an excuse to talk about transcoded stuff (kidding). Oh, and it's not some random irrelevant package; <code>kde-services</code> depends on it.</p>
+    </div>
+ </div>
+ <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    </div>
+ </div>
+</div>
+
+</body>
+</html>
