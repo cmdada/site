@@ -22,7 +22,7 @@ class Footer extends HTMLElement {
         }
       </style>
       <footer>
-        <code>created by ada t (adas.software)</code>
+        <code>created in raw html by ada t (adas.software)</code>
       </footer>
     `;
   }
