@@ -36,6 +36,16 @@ h3 {
     margin: 0;
     font-size: 1.2em; /* Increased font size for headings */
 }
+
+li {
+	text-align:center;
+	
+}
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    text-align: center;
+}
 nav a {
     color: #333; /* Changed color to a more readable dark gray */
     text-decoration: none;
