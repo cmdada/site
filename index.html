@@ -10,7 +10,6 @@
 <script src="components/header.js" type="text/javascript" defer></script>
 <script src="components/footer.js" type="text/javascript" defer></script>
 <footer-component></footer-component>
-<script src="pong.js"</script>
 <script>
     function switchTheme() {
         let body = document.body;
@@ -32,11 +31,10 @@
 		<h2>Introduction</h2>
 		<p>This article sets out to evaluate the computational capabilities of CMU Computer Science (CS) Academy's Integrated Development Environment (IDE) in processing 2D Vector... <a href='blog.html'>Continue</a></p>
     </section>
-    <div class="pong-game">
-	     <div class="paddle paddle-left"></div>
-    	 <div class="paddle paddle-right"></div>
-    	 <div class="ball"></div>
+    <div class="canvas-container">
+        <canvas id="canvas" width="500" height="500" style="background-color: none"></canvas>
     </div>
-
+    
+     <script src="pong.js"></script>     
   	</body>
 </html>
