@@ -19,6 +19,9 @@ class Footer extends HTMLElement {
           padding-bottom: 0.25vw;
           padding-top: 0.25vw;
           background-color: #ffd3f3;
+          border-top: 2px solid var(--night-rider);
+   		  border-bottom: 2px solid var(--night-rider);
+
         }
       </style>
       <footer>

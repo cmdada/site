@@ -16,12 +16,18 @@ body {
     font-size: 14px; /* Increased font size for body text */
 }
 header, nav {
-    background-color: #d9b3ff;
+    background-color: #ffd3f3;
     color: #3; /* Changed color to a more readable dark gray */
     padding: 10px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 1.1em;
+    border-top: 2px solid var(--night-rider);
+    border-bottom: 2px solid var(--night-rider);
+    border-left: 2px solid var(--night-rider);
+    border-right: 2px solid var(--night-rider);
+
+
 }
 section {
     background-color: #f5f5f5;
@@ -158,6 +164,9 @@ p {
     margin-bottom: 1%;
     padding: 0%;
     display: flex;
+    border-top: 2px solid var(--night-rider);
+    border-bottom: 2px solid var(--night-rider);
+
 }
 .canvas-container {
     display: flex;
