@@ -13,7 +13,7 @@
 
 /* VULNERABILITY DISCLOSURE */
 If you find a vulnerability, don't be a jerk about it. Instead, consider this:
-"If you're reading this, you're probably thinking, 'I'm going to find a vulnerability and make myself famous.' But here's the thing; nobody cares about this site
+If you're reading this, you're probably thinking, 'I'm going to find a vulnerability and make myself famous.' But here's the thing; nobody cares about this site
 So, if you're thinking about exploiting this site and pwning the world, remember:
 - You're not saving the world.
 - You're not making a difference.
