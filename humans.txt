@@ -10,3 +10,12 @@
 	Language: English
 	Doctype:HTML, CSS, A tiny bit of JS
 	IDE: adaMicro 
+
+/* VULNERABILITY DISCLOSURE */
+If you find a vulnerability, don't be a jerk about it. Instead, consider this:
+"If you're ading this, you're probably thinking, 'I'm going to find a vulnerability and make myself famous.' But here's the thing; nobody cares about this site
+So, if you're thinking about exploiting this site, remember:
+- You're not saving the world.
+- You're not making a difference.
+- You're just proving that you can find a loophole in a site quick site i wrote to be fun
+Instead, why not use your skills to do something constructive? Like, I don't know, contributing to open-source projects or helping out in a community that actually needs your help.
