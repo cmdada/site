@@ -1,4 +1,4 @@
-let canvas = document.getElementById('canvas'), ctx = document.getElementById('canvas').getContext('2d'), paddles = [0, 0], ball = [0, 0, -0.016, 0], score = [0, 0], cursor = 1, reactionSpeed = 6, reactionDistance = -0.5;
+let canvas = document.getElementById('canvas'), ctx = document.getElementById('canvas').getContext('2d'), paddles = [0, 0], ball = [0, 0, -0.016, 0], score = [0, 0], cursor = 0, reactionSpeed = 2, reactionDistance = -0.5;
 canvas.addEventListener('mousemove', e => { cursor = e.offsetY / 250 - 1 });
 ctx.textAlign = 'center', ctx.font = '50px Arial, sans-serif', ctx.fillStyle = 'black';
 setInterval(() => {
@@ -17,6 +17,6 @@ setInterval(() => {
        (ball[0] < 220/250 && ball[0] + ball[2] >= 220/250 && Math.abs(paddles[1] - ball[1] - ball[3] * (220/250 - ball[0]) / ball[2]) <= 40/250)) {
         let alpha = (ball[0] < 0 ? 1 : -1) * (7/16 * (Math.atan(ball[3] / -ball[2]) + Math.PI / 2) + 0.004375 * Math.PI * (ball[1] - paddles[ball[0] < 0 ? 0 : 1]) * 500 + 27/64 * Math.PI - Math.atan(ball[3] / -ball[2]) + Math.PI * 3/8);
         let x = ball[2] * Math.cos(alpha) - ball[3] * Math.sin(alpha), y = ball[2] * Math.sin(alpha) + ball[3] * Math.cos(alpha);
-        ball[2] = x * 1.02, ball[3] = y * 1.02, reactionSpeed = Math.random() * 4.5 + 1.7, reactionDistance = Math.random() * 0.7 - 1;
+        ball[2] = x * 1.02, ball[3] = y * 1.02, reactionSpeed = 3, reactionDistance = Math.random() * 0.7 - 1;
     }
 }, 1000/60);
