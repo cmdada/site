@@ -6,21 +6,23 @@
     --seashell: #fff7f3;
     --pig-pink: #ffd3f3;
     --clear-day: #e3fff8;
-    --tea-green: #d8ffb6;
+    --tea-green: #c1edccff;
     --shalimar: #f7f8ac;
-    --dark-gray: #333; /* Added a more readable dark gray */
+    --dark-purple: #402039ff;
+    --licorice: #170f11ff;
+    --dark-gray: #333;
     --font-family-primary: "0xProto Nerd Font", "Space Mono Regular", sans-serif;
     --font-family-secondary: "Space Mono Regular", sans-serif;
     --body-bg: #f5f5f5;
     --body-color: var(--dark-gray);
-    --body-font-size: 16px; /* Increased font size for body text */
+    --body-font-size: 16px;
     --header-bg: var(--pig-pink);
     --header-color: var(--dark-gray);
     --header-padding: 10px;
     --header-border: 2px solid var(--night-rider);
     --section-bg: var(--body-bg);
     --section-color: var(--dark-gray);
-    --section-padding: 2%; /* Increased padding for sections */
+    --section-padding: 2%;
     --nav-link-color: var(--dark-gray);
     --nav-link-margin: 0 10px;
     --p-padding: 10%;
@@ -129,9 +131,9 @@ p {
 }
 
 .art-grid {
+    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: var(--art-grid-gap);
-    display: flex;
     justify-content: center;
     margin-bottom: 5%;
 }
@@ -151,15 +153,9 @@ p {
     box-sizing: border-box;
 }
 
-.leftcolumn {
-    float: left;
-    width: var(--leftcolumn-width);
-}
-
-.rightcolumn {
-    float: left;
-    width: var(--rightcolumn-width);
-    padding-left: var(--rightcolumn-padding-left);
+.leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
 }
 
 .fakeimg {
@@ -195,19 +191,16 @@ p {
 }
 
 .horizontal-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: var(--horizontal-bar-height);
     border-top: var(--header-border);
     border-bottom: var(--header-border);
     background-color: var(--horizontal-bar-bg);
-    text-align: center;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     margin-top: var(--horizontal-bar-margin-top);
     margin-bottom: var(--horizontal-bar-margin-bottom);
-    padding: 0;
-    display: flex;
 }
 
 .canvas-container {
