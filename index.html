@@ -5,36 +5,44 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="ada's.software homepage">
-<link rel="manifest" href="site.webmanifest" />
-<link rel="stylesheet" href="styles.css"></head>
-<script src="components/header.js" type="text/javascript" defer></script>
-<script src="components/footer.js" type="text/javascript" defer></script>
-<footer-component></footer-component>
-<script>
-    function switchTheme() {
-        let body = document.body;
-        if (body.dataset.theme === "dark") {
-            body.dataset.theme = "light";
-        } else {
-            body.dataset.theme = "dark";
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+    <footer-component></footer-component>
+    <script>
+        function switchTheme() {
+            let body = document.body;
+            if (body.dataset.theme === "dark") {
+                body.dataset.theme = "light";
+            } else {
+                body.dataset.theme = "dark";
+            }
         }
-    }
-</script>
+    </script>
+    <style>
+        @media only screen and (max-width: 768px) {
+            .canvas-container {
+                display: none;
+            }
+        }
+    </style>
+</head>
 <body data-theme="dark">
-	<header-component></header-component>
+    <header-component></header-component>
     <section>
         <h1>adas.software</h1>
         <p>this is my somewhat questionable website, blog, and content host. </p>
         <h1>recent blog things</h1>
         <h2>Your iPhone is Killing the Planet</h1>
-		<p><em>Published on: Sun Mar 3 10:37:38 PM MST 2024 by ada</em></p>
-		<p><em>just a warning, this is going to be a little bit more formal than usual</em></p>
-		<p>For longer than I’ve understood electronics, for longer than I’ve been alive, the worst kept secret of the electronics industry is... <a href='blog.html'>Read More</a></p>
+        <p><em>Published on: Sun Mar 3 10:37:38 PM MST 2024 by ada</em></p>
+        <p><em>just a warning, this is going to be a little bit more formal than usual</em></p>
+        <p>For longer than I’ve understood electronics, for longer than I’ve been alive, the worst kept secret of the electronics industry is... <a href='blog.html'>Read More</a></p>
     </section>
     <div class="canvas-container">
         <canvas id="canvas" width="500" height="500" style="background-color: none"></canvas>
     </div>
     
-     <script src="pong.js"></script>     
-  	</body>
+    <script src="pong.js"></script>     
+</body>
 </html>
