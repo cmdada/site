@@ -18,7 +18,7 @@
     --header-bg: var(--pig-pink);
     --header-color: var(--dark-gray);
     --header-padding: 10px;
-    --header-border: 2px solid var(--night-rider);
+    --header-border: 3px solid var(--night-rider);
     --section-bg: var(--body-bg);
     --section-color: var(--dark-gray);
     --section-padding: 2%;
@@ -245,7 +245,7 @@ p {
         width: 100%;
         position: absolute;
         border: var(--header-border);
-        top: 53px;
+        top: 52px;
         left: 0;
         background-color: var(--header-bg);
         padding: 20px;
