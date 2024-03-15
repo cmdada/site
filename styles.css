@@ -174,21 +174,6 @@ p {
     padding: 0;
 }
 
-.fakeimg {
-    background-color: var(--fakeimg-bg);
-    width: var(--fakeimg-width);
-    padding: var(--fakeimg-padding);
-    border-radius: 5px;
-}
-
-.card {
-    background-color: var(--card-bg);
-    padding: var(--card-padding);
-    margin-top: var(--card-margin-top);
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
 .row:after {
     content: "";
     display: table;
@@ -261,3 +246,4 @@ p {
         margin: 10px 0;
     }
 }
+
