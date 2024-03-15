@@ -143,7 +143,6 @@ p {
     line-height: var(--p-line-height);
     margin-bottom: var(--p-margin-bottom);
     font-size: var(--p-font-size);
-    text-align: justify;
 }
 
 .art-grid {
